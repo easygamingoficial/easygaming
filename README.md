@@ -2537,19 +2537,19 @@ OrionLib:MakeNotification({
 
 local W = Window:MakeTab({
     Name = "Welcome",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
     Name = "General",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
     Name = "Setting",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "",
     PremiumOnly = false
 })
 
@@ -11283,33 +11283,33 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub",
+                    Name = "EASY GAMING",
                     Content = "Turn Off Hop Find Moon Please",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub",
+                    Name = "EASY GAMING",
                     Content = "Hop Server",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub",
+                    Name = "EASY GAMING",
                     Content = "Hop Server",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub",
+                    Name = "EASY GAMING",
                     Content = "Hop Server",
-                    Image = "rbxassetid://119980140458596",
+                    Image = "",
                     Time = 5
                 })
             else
@@ -11320,9 +11320,9 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "Sla Hub",
+        Name = "EASY GAMING",
         Content = "Loading script complete!, You can now enable the function!",
-        Image = "rbxassetid://119980140458596",
+        Image = "",
         Time = 5
     })
 
@@ -11363,8 +11363,8 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "Sla Hub",
+    Name = "EASY GAMING",
     Content = "Loading Config Complete!!",
-    Image = "rbxassetid://119980140458596",
+    Image = "r,
     Time = 5
 })
